@@ -1,0 +1,19 @@
+.Field {
+  width: 100%;
+  background-color: #282C34;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+article {
+  flex: 200px;
+  background-color: #FA6D7E;
+  margin: 5px 10px;
+  padding: 5px 10px;
+  /* max-height: 220px; */
+}
+

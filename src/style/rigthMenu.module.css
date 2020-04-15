@@ -1,0 +1,97 @@
+.RightMenu {
+  position: relative;
+  width: 100%;
+  height: 100%; 
+  display: flex;
+  
+  background-color: rgb(45, 75, 134);
+}
+.RightMenu .container {
+  width: 85%;
+  height: 100%;
+  transition: all 0.3s ease-out;
+}
+.RightMenu .Menu {
+  position: relative;
+  width: 15%;
+  margin: 0;
+  padding: 10px 5px;
+  transition: all 0.3s ease-out;
+}
+.Menu.Toggle {
+  width: 65px;
+} 
+.Toggle .Items {
+  position: absolute;
+  left: 200%;
+  
+}
+.container.Toggle {
+  flex: auto;
+}
+.Tog {
+  position: relative;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background-color: #C6CDF7;
+  border-radius: 50%;
+
+  user-select: none; 
+
+}
+.Tog:hover {
+  background-color:rgb(215, 219, 241);
+}
+.Tog:active img {
+  transform: scale(0.8);
+}
+.Tog img {
+  transition: all 0.15s ease-out;
+  transform: rotate(-90deg);
+  border-radius: 50%;
+}
+.Toggle .Tog img {
+  transition: all 0.15s ease-out;
+  transform: rotate(90deg);
+}
+.Items {
+  position: relative;
+  margin-top: 10px;
+  width: 100%;
+  transition: all 0.3s ease-out;
+  height: 550px;
+  overflow-y: auto;
+}
+.Items h3 {
+  margin-bottom: 5px;
+}
+.Items p {
+  margin-top: 5px;
+}
+.Flow {
+
+}
+.Head {
+  display: flex;
+  height: 50px;
+  padding: 5px;
+}
+.Hide {
+  height: 50px;
+  flex: auto;
+  background-color: #C6CDF7;
+  border-radius: 25px;
+  margin: 0 5px;
+  user-select: none;
+  transition: all 0.3s ease-out;
+}
+.Hide:hover {
+  background-color:rgb(215, 219, 241);
+}
+.Hide:active img {
+  transform: scale(0.8);
+}
+.Toggle .Hide {
+  display: none;
+}

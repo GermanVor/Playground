@@ -1,0 +1,12 @@
+.Head {
+  min-height: 110px;
+  width: 100%;
+  background-color: rgb(67, 114, 201);
+}
+.Label {
+  font-size: 60px;
+}
+h1, h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
